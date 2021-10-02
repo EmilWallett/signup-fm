@@ -1,0 +1,71 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("images/bg-intro-desktop.png");
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p, h1, strong{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sideText {
+    
+    color: white;
+    width: 25%;
+
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.topPanel {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(77, 75, 75, 0.383);
+
+    width: 30%;
+    height: 3em;
+
+    text-align: center;
+    padding: 10px 0;
+
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.mainPanel {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(77, 75, 75, 0.383);
+
+    width: 30%;
+    height: 35em;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    position: relative;
+    border: 2px solid lightgray;
+    width: 70%;
+    border-radius: 6px;
+
+    padding: 20px 40px;
+    margin: auto;
+}
