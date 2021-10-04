@@ -60,12 +60,86 @@ p, h1, strong{
     transform: translate(-50%, -50%);
 }
 
-.text{
+.first-name{
     position: relative;
     border: 2px solid lightgray;
     width: 70%;
     border-radius: 6px;
+    text-align: left;
 
     padding: 20px 40px;
-    margin: auto;
+    
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.last-name {
+    position: relative;
+    border: 2px solid lightgray;
+    width: 70%;
+    border-radius: 6px;
+    text-align: left;
+
+    padding: 20px 40px;
+    
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.email {
+    position: relative;
+    border: 2px solid lightgray;
+    width: 70%;
+    border-radius: 6px;
+    text-align: left;
+
+    padding: 20px 40px;
+    
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.password {
+    position: relative;
+    border: 2px solid lightgray;
+    width: 70%;
+    border-radius: 6px;
+    text-align: left;
+
+    padding: 20px 40px;
+    
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.freeTrial {
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(77, 75, 75, 0.383);
+
+    width: 85%;
+    height: 1em;
+
+    text-align: center;
+    padding: 20px 0;
+
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
